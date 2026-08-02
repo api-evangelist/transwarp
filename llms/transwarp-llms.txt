@@ -1,0 +1,38 @@
+# Transwarp
+
+> Transwarp Technology (星环科技) is a Shanghai-based enterprise big data and AI
+> infrastructure software company. Its self-hosted platform includes Transwarp
+> Data Hub (TDH), the Inceptor SQL analytics engine, Slipstream stream
+> computing, Hyperbase wide-table store, StellarDB graph database, TimeLyre
+> time-series, Scope search, ArgoDB analytical database, the Sophon AI platform
+> (Base/MLDev/MLOps/LLMOps), the TDC data cloud, and the Hippo distributed
+> vector database. Hippo ships documented RESTful and Python APIs with an
+> official hippo-api client on PyPI. No public llms.txt was found on
+> www.transwarp.cn (404 on 2026-07-21); this file was generated from the API
+> Evangelist catalog entry.
+
+## APIs
+
+- [Hippo RESTful API guide](https://www.transwarp.cn/doc/hippo/2.0-CN/restful-api): Vector database REST reference — database/table operations, writes, import/export, indexing, vector/full-text/hybrid search, ACL, tasks, backup/restore, quotas, encryption
+- [Hippo Python API guide](https://www.transwarp.cn/doc/hippo/2.0-CN/python-api): Python client usage for Hippo (hippo-api on PyPI)
+
+## Docs
+
+- [Documentation portal](https://www.transwarp.cn/doc): Per-product manuals — TDH, Inceptor, Slipstream, StellarDB, Scope, Hyperbase, TimeLyre, Spacture, Event Store, KeyByte, TDDMS, Quark Gateway, Aquila Insight, DBA Service, Guardian, ArgoDB/Sophon, Sophon MLOps/MLDev/LLMOps, Hippo
+- [TDH Community Edition docs](https://www.transwarp.cn/doc/tdh-community-edition/2024.5): Install, quick start, developer guide, release notes
+- [TDH CE quick start](https://www.transwarp.cn/doc/tdh-community-edition/2024.5/TDH-CE-QuickStartManual): Connect to the database and SQL reference basics
+- [Hippo docs (2.0)](https://www.transwarp.cn/doc/hippo/2.0-CN): Introduction, install, connect, vector retrieval, LangChain integration, release notes
+
+## Packages
+
+- [hippo-api on PyPI](https://pypi.org/project/hippo-api/): Official Python client for the Hippo vector database
+
+## Community
+
+- [Community forum](https://community.transwarp.cn): Q&A, articles, groups, and support
+- [Blog](https://www.transwarp.cn/blog): Company and product posts
+
+## Optional
+
+- [Terms of service](https://www.transwarp.cn/clause)
+- [Privacy policy](https://www.transwarp.cn/privacy)

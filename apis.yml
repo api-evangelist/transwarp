@@ -1,7 +1,14 @@
 aid: transwarp
-name: transwarp
-description: transwarp is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Transwarp
+description: Transwarp Technology (星环科技) is a Shanghai-based enterprise big data
+  and AI infrastructure software company backed by Qiming Venture Partners. Its
+  self-hosted platform spans Transwarp Data Hub (TDH, including a free Community
+  Edition) with the Inceptor SQL analytics engine, Slipstream real-time stream
+  computing, Hyperbase wide-table store, StellarDB distributed graph database,
+  TimeLyre time-series and Scope search engines, the ArgoDB analytical database,
+  the Sophon AI platform (Base, MLDev, MLOps, LLMOps), the TDC data cloud, and
+  the Hippo distributed vector database. Hippo exposes a documented RESTful API
+  and Python API, with an official hippo-api client library published on PyPI.
 url: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +16,88 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://community.transwarp.cn/_nuxt/logo.A4InilEF.png
 tags:
 - Company
-apis: []
+- Big Data
+- Databases
+- Vector Databases
+- Artificial Intelligence
+- Data Analytics
+- Graph Databases
+- China
+apis:
+- aid: transwarp:hippo-restful-api
+  name: Transwarp Hippo RESTful API
+  description: REST interface of the Transwarp Hippo distributed vector database.
+    The published reference covers database and table operations, data writes,
+    import/export (standalone mode), index operations, vector retrieval and query
+    operations, cluster information, user ACL, tasks, recycle bin, cross-cluster
+    synchronization, backup and restore, binary/sparse/high-dimensional vector
+    types, full-text and hybrid search, table templates, lifecycle management,
+    array operations, storage/memory quotas, and data encryption at rest. Hippo
+    is self-hosted software, so the API is served from the customer's own
+    deployment rather than a public cloud endpoint.
+  humanURL: https://www.transwarp.cn/doc/hippo/2.0-CN/restful-api
+  tags:
+  - Vector Databases
+  - Search
+  - Artificial Intelligence
+  properties:
+  - type: Documentation
+    url: https://www.transwarp.cn/doc/hippo/2.0-CN
+  - type: APIReference
+    url: https://www.transwarp.cn/doc/hippo/2.0-CN/restful-api
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/transwarp-domain-security.yml
+- type: Packages
+  url: packages/transwarp-packages.yml
+- type: SDKs
+  url: packages/transwarp-packages.yml
+- type: WellKnown
+  url: well-known/transwarp-well-known.yml
+- type: LLMsTxt
+  url: llms/transwarp-llms.txt
+- type: ChangeLog
+  url: changelog/transwarp-changelog.yml
 - type: Website
-  url: https://transwarp.cn
+  url: https://www.transwarp.cn
+- type: Documentation
+  url: https://www.transwarp.cn/doc
+- type: APIReference
+  url: https://www.transwarp.cn/doc/hippo/2.0-CN/restful-api
+- type: GettingStarted
+  url: https://www.transwarp.cn/doc/tdh-community-edition/2024.5/TDH-CE-QuickStartManual
+- type: Blog
+  url: https://www.transwarp.cn/blog
+- type: Support
+  url: https://community.transwarp.cn
+- type: TermsOfService
+  url: https://www.transwarp.cn/clause
+- type: PrivacyPolicy
+  url: https://www.transwarp.cn/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

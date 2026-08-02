@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/hippo-api/json
+notes: Registry sweep on 2026-07-21. npm, Maven Central, and crates.io returned
+  no first-party Transwarp client libraries (the npm "transwarp" package and the
+  PyPI "transwarp" package are unrelated third-party projects, and the only Maven
+  hit is a third-party AnyLine connector). PyPI hosts the official Hippo vector
+  database client, authored by "transwarp". Transwarp's server products (TDH,
+  ArgoDB, Sophon, TDC) are distributed as self-hosted enterprise software rather
+  than through public package registries.
+packages:
+- language: python
+  registry: pypi
+  name: hippo-api
+  url: https://pypi.org/project/hippo-api/
+  install: pip install hippo-api
+  official: true
+  description: Transwarp Hippo API — Python client for the Hippo distributed
+    vector database.
+  latest_version: 1.2.0
+  docs: https://www.transwarp.cn/doc/hippo/2.0-CN/python-api

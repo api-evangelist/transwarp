@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.transwarp.cn/doc
+notes: Captured 2026-07-21 from the documentation portal. Transwarp versions each
+  product on its own release train and publishes per-product release-notes
+  sections inside the versioned manuals (the doc site renders entry bodies
+  client-side, so individual dated entries are not mirrored here — the linked
+  release-notes pages are the source of truth).
+scheme: per-product release trains (versioned documentation sets)
+products:
+- name: Transwarp Data Hub Community Edition
+  current_docs_version: '2024.5'
+  release_notes: https://www.transwarp.cn/doc/tdh-community-edition/2024.5/release-notes
+- name: Transwarp Inceptor (TDH)
+  current_docs_version: '9.5'
+  docs: https://www.transwarp.cn/doc/tdh/9.5
+- name: Transwarp Hippo
+  current_docs_version: 2.0-CN
+  release_notes: https://www.transwarp.cn/doc/hippo/2.0-CN/release-notes
+- name: Transwarp Slipstream
+  current_docs_version: '9.3'
+  docs: https://www.transwarp.cn/doc/slipstream/9.3
+- name: Transwarp StellarDB
+  current_docs_version: '5.1'
+  docs: https://www.transwarp.cn/doc/stellardb/5.1
+- name: Transwarp Scope
+  current_docs_version: '3.1'
+  docs: https://www.transwarp.cn/doc/scope/3.1
+- name: Transwarp Hyperbase
+  current_docs_version: '9.3'
+  docs: https://www.transwarp.cn/doc/hyperbase/9.3
+- name: Transwarp TimeLyre
+  current_docs_version: '9.3'
+  docs: https://www.transwarp.cn/doc/timelyre/9.3
+- name: Transwarp ArgoDB
+  current_docs_version: '6.1'
+  docs: https://www.transwarp.cn/doc/argodb/6.1
+- name: Sophon LLMOps
+  current_docs_version: '1.3'
+  docs: https://www.transwarp.cn/doc/sophon-llmops/1.3
+- name: Sophon MLOps
+  current_docs_version: '3.3'
+  docs: https://www.transwarp.cn/doc/sophonmlops/3.3
+entries: []
