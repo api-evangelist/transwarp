@@ -45,6 +45,15 @@ image: https://community.transwarp.cn/_nuxt/logo.A4InilEF.png
 tags:
 - Company
 - Big Data
+- Database
+- Vector Database
+- Artificial Intelligence
+- Data Analytics
+- Graph Databases
+- China
+tags_raw:
+- Company
+- Big Data
 - Databases
 - Vector Databases
 - Artificial Intelligence
@@ -65,6 +74,10 @@ apis:
     deployment rather than a public cloud endpoint.
   humanURL: https://www.transwarp.cn/doc/hippo/2.0-CN/restful-api
   tags:
+  - Vector Database
+  - Search
+  - Artificial Intelligence
+  tags_raw:
   - Vector Databases
   - Search
   - Artificial Intelligence
